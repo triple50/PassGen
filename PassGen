@@ -11,6 +11,7 @@ echo Fifth Word:
 read r5
 echo Sixth Word:
 read r6
+> output.txt
 echo	$r1$r2$r3$r4$r5$r6 >> output.txt
 echo	$r1$r2$r3$r4$r6$r5 >> output.txt
 echo	$r1$r2$r3$r6$r4$r5 >> output.txt
