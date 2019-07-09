@@ -11,776 +11,774 @@ echo Fifth Word:
 read r5
 echo Sixth Word:
 read r6
-echo	$r1$r2$r3$r4$r5$r6
-echo	$r1$r2$r3$r4$r6$r5
-echo	$r1$r2$r3$r6$r4$r5
-echo	$r1$r2$r6$r3$r4$r5
-echo	$r1$r6$r2$r3$r4$r5
-echo	$r6$r1$r2$r3$r4$r5
-echo	$r6$r1$r2$r3$r5$r4
-echo	$r1$r6$r2$r3$r5$r4
-echo	$r1$r2$r6$r3$r5$r4
-echo	$r1$r2$r3$r6$r5$r4
-echo	$r1$r2$r3$r5$r6$r4
-echo	$r1$r2$r3$r5$r4$r6
-echo	$r1$r2$r5$r3$r4$r6
-echo	$r1$r2$r5$r3$r6$r4
-echo	$r1$r2$r5$r6$r3$r4
-echo	$r1$r2$r6$r5$r3$r4
-echo	$r1$r6$r2$r5$r3$r4
-echo	$r6$r1$r2$r5$r3$r4
-echo	$r6$r1$r5$r2$r3$r4
-echo	$r6$r5$r1$r2$r3$r4
-echo	$r6$r5$r1$r2$r4$r3
-echo	$r5$r6$r1$r2$r4$r3
-echo	$r5$r1$r2$r6$r4$r3
-echo	$r5$r1$r2$r4$r6$r3
-echo	$r5$r1$r2$r4$r3$r6
-echo	$r1$r5$r2$r4$r3$r6
-echo	$r1$r5$r2$r4$r6$r3
-echo	$r1$r5$r2$r6$r4$r3
-echo	$r1$r5$r6$r2$r4$r3
-echo	$r1$r6$r5$r2$r4$r3
-echo	$r6$r1$r5$r2$r4$r3
-echo	$r6$r1$r2$r5$r4$r3
-echo	$r1$r6$r2$r5$r4$r3
-echo	$r1$r2$r6$r5$r4$r3
-echo	$r1$r2$r5$r6$r4$r3
-echo	$r1$r2$r5$r4$r6$r3
-echo	$r1$r2$r5$r4$r3$r6
-echo	$r1$r2$r4$r5$r3$r6
-echo	$r1$r2$r4$r5$r6$r3
-echo	$r1$r2$r4$r6$r5$r3
-echo	$r1$r2$r6$r4$r5$r3
-echo	$r1$r6$r2$r4$r5$r3
-echo	$r6$r1$r2$r4$r5$r3
-echo	$r6$r1$r2$r4$r3$r5
-echo	$r1$r6$r2$r4$r3$r5
-echo	$r1$r2$r6$r4$r3$r5
-echo	$r1$r2$r4$r6$r3$r5
-echo	$r1$r2$r4$r3$r6$r5
-echo	$r1$r2$r4$r3$r5$r6
-echo	$r1$r4$r2$r3$r5$r6
-echo	$r1$r4$r2$r3$r6$r5
-echo	$r1$r4$r2$r6$r3$r5
-echo	$r1$r4$r6$r2$r3$r5
-echo	$r1$r6$r4$r2$r3$r5
-echo	$r6$r1$r4$r2$r3$r5
-echo	$r6$r1$r4$r2$r5$r3
-echo	$r1$r6$r4$r2$r5$r3
-echo	$r1$r4$r6$r2$r5$r3
-echo	$r1$r4$r2$r6$r5$r3
-echo	$r1$r4$r2$r5$r6$r3
-echo	$r1$r4$r2$r5$r3$r6
-echo	$r1$r4$r5$r2$r3$r6
-echo	$r1$r4$r5$r2$r6$r3
-echo	$r1$r4$r5$r6$r2$r3
-echo	$r1$r4$r6$r5$r2$r3
-echo	$r1$r6$r4$r5$r2$r3
-echo	$r6$r1$r4$r5$r2$r3
-echo	$r6$r1$r5$r4$r2$r3
-echo	$r1$r6$r5$r4$r2$r3
-echo	$r1$r5$r6$r4$r2$r3
-echo	$r1$r5$r4$r6$r2$r3
-echo	$r1$r5$r4$r2$r6$r3
-echo	$r1$r5$r4$r2$r3$r6
-echo	$r5$r1$r4$r2$r3$r6
-echo	$r5$r1$r4$r2$r6$r3
-echo	$r5$r1$r4$r6$r2$r3
-echo	$r5$r1$r6$r4$r2$r3
-echo	$r5$r6$r1$r4$r2$r3
-echo	$r6$r5$r1$r4$r2$r3
-echo	$r6$r5$r4$r1$r2$r3
-echo	$r5$r6$r4$r1$r2$r3
-echo	$r5$r4$r6$r1$r2$r3
-echo	$r5$r4$r1$r6$r2$r3
-echo	$r5$r4$r1$r2$r6$r3
-echo	$r5$r4$r1$r2$r3$r6
-echo	$r4$r5$r1$r2$r3$r6
-echo	$r4$r5$r1$r2$r6$r3
-echo	$r4$r5$r1$r6$r2$r3
-echo	$r4$r5$r6$r1$r2$r3
-echo	$r4$r6$r5$r1$r2$r3
-echo	$r6$r4$r5$r1$r2$r3
-echo	$r6$r4$r1$r5$r2$r3
-echo	$r4$r6$r1$r5$r2$r3
-echo	$r4$r1$r6$r5$r2$r3
-echo	$r4$r1$r5$r6$r2$r3
-echo	$r4$r1$r5$r2$r6$r3
-echo	$r4$r1$r5$r2$r3$r6
-echo	$r4$r1$r2$r5$r3$r6
-echo	$r4$r1$r2$r5$r6$r3
-echo	$r4$r1$r2$r6$r5$r3
-echo	$r4$r1$r6$r2$r5$r3
-echo	$r4$r6$r1$r2$r5$r3
-echo	$r6$r4$r1$r2$r5$r3
-echo	$r6$r4$r1$r2$r3$r5
-echo	$r4$r6$r1$r2$r3$r5
-echo	$r4$r1$r6$r2$r3$r5
-echo	$r4$r1$r2$r6$r3$r5
-echo	$r4$r1$r2$r3$r6$r5
-echo	$r4$r1$r2$r3$r5$r6
-echo	$r4$r1$r3$r2$r5$r6
-echo	$r4$r1$r3$r2$r6$r5
-echo	$r4$r1$r3$r6$r2$r5
-echo	$r4$r1$r6$r3$r2$r5
-echo	$r4$r6$r1$r3$r2$r5
-echo	$r6$r4$r1$r3$r2$r5
-echo	$r6$r4$r1$r3$r5$r2
-echo	$r4$r6$r1$r3$r5$r2
-echo	$r4$r1$r3$r6$r5$r2
-echo	$r4$r1$r6$r3$r5$r2
-echo	$r4$r1$r3$r5$r6$r2
-echo	$r4$r1$r3$r5$r2$r6
-echo	$r3$r2$r6$r4$r5$r1
-echo	$r3$r2$r4$r6$r5$r1
-echo	$r3$r2$r4$r5$r6$r1
-echo	$r3$r2$r4$r5$r1$r6
-echo	$r3$r2$r5$r4$r1$r6
-echo	$r3$r2$r5$r4$r6$r1
-echo	$r3$r2$r5$r6$r4$r1
-echo	$r3$r2$r6$r5$r4$r1
-echo	$r3$r6$r2$r5$r4$r1
-echo	$r6$r3$r2$r5$r4$r1
-echo	$r6$r3$r5$r2$r4$r1
-echo	$r3$r6$r5$r2$r4$r1
-echo	$r3$r5$r6$r2$r4$r1
-echo	$r3$r5$r2$r6$r4$r1
-echo	$r3$r5$r2$r4$r6$r1
-echo	$r3$r5$r2$r4$r1$r6
-echo	$r5$r3$r2$r4$r1$r6
-echo	$r5$r3$r2$r4$r6$r1
-echo	$r5$r3$r2$r6$r4$r1
-echo	$r5$r3$r6$r2$r4$r1
-echo	$r5$r6$r3$r2$r4$r1
-echo	$r6$r5$r3$r2$r4$r1
-echo	$r6$r5$r3$r2$r1$r4
-echo	$r5$r6$r3$r2$r1$r4
-echo	$r5$r3$r6$r2$r1$r4
-echo	$r5$r3$r2$r6$r1$r4
-echo	$r5$r3$r2$r1$r6$r4
-echo	$r5$r3$r2$r1$r4$r6
-echo	$r3$r5$r2$r1$r4$r6
-echo	$r3$r5$r2$r1$r6$r4
-echo	$r3$r5$r2$r6$r1$r4
-echo	$r3$r5$r6$r2$r1$r4
-echo	$r3$r6$r5$r2$r1$r4
-echo	$r6$r3$r5$r2$r1$r4
-echo	$r6$r3$r2$r5$r1$r4
-echo	$r3$r6$r2$r5$r1$r4
-echo	$r3$r2$r6$r5$r1$r4
-echo	$r3$r2$r5$r6$r1$r4
-echo	$r3$r2$r5$r1$r6$r4
-echo	$r3$r2$r5$r1$r4$r6
-echo	$r3$r2$r1$r5$r4$r6
-echo	$r3$r2$r1$r5$r6$r4
-echo	$r3$r2$r1$r6$r5$r4                                                                       
-echo	$r3$r2$r6$r1$r5$r4
-echo	$r3$r6$r2$r1$r5$r4
-echo	$r6$r3$r2$r1$r5$r4
-echo	$r6$r3$r2$r1$r4$r5
-echo	$r3$r6$r2$r1$r4$r5
-echo	$r3$r2$r6$r1$r4$r5
-echo	$r3$r2$r1$r6$r4$r5
-echo	$r3$r2$r1$r4$r6$r5
-echo	$r3$r2$r1$r4$r5$r6
-echo	$r2$r3$r1$r4$r5$r6
-echo	$r2$r3$r1$r4$r6$r5
-echo	$r2$r3$r1$r6$r4$r5
-echo	$r2$r3$r6$r1$r4$r5
-echo	$r2$r6$r3$r1$r4$r5
-echo	$r6$r2$r3$r1$r4$r5
-echo	$r6$r2$r3$r1$r5$r4
-echo	$r2$r6$r3$r1$r5$r4
-echo	$r2$r3$r6$r1$r5$r4
-echo	$r2$r3$r1$r6$r5$r4
-echo	$r2$r3$r1$r5$r6$r4
-echo	$r2$r3$r1$r5$r4$r6
-echo	$r3$r4$r6$r1$r5$r2
-echo	$r3$r4$r1$r6$r5$r2
-echo	$r3$r4$r1$r5$r6$r2
-echo	$r3$r4$r1$r5$r2$r6
-echo	$r3$r4$r5$r1$r2$r6
-echo	$r3$r4$r5$r1$r6$r2
-echo	$r3$r4$r5$r6$r1$r2
-echo	$r3$r4$r6$r5$r1$r2
-echo	$r3$r6$r4$r5$r1$r2
-echo	$r6$r3$r4$r5$r1$r2
-echo	$r6$r3$r5$r4$r1$r2
-echo	$r3$r6$r5$r4$r1$r2
-echo	$r3$r5$r6$r4$r1$r2
-echo	$r3$r5$r4$r6$r1$r2
-echo	$r3$r5$r4$r1$r6$r2
-echo	$r3$r5$r4$r1$r2$r6
-echo	$r5$r3$r4$r1$r2$r6
-echo	$r5$r3$r4$r1$r6$r2
-echo	$r5$r3$r4$r6$r1$r2
-echo	$r5$r3$r6$r4$r1$r2
-echo	$r5$r6$r3$r4$r1$r2
-echo	$r6$r5$r3$r4$r1$r2
-echo	$r6$r5$r4$r3$r1$r2
-echo	$r5$r6$r4$r3$r1$r2
-echo	$r5$r4$r6$r3$r1$r2
-echo	$r5$r4$r3$r6$r1$r2
-echo	$r5$r4$r3$r1$r6$r2
-echo	$r5$r4$r3$r1$r2$r6
-echo	$r4$r5$r3$r1$r2$r6
-echo	$r4$r5$r3$r1$r6$r2
-echo	$r4$r5$r3$r6$r1$r2
-echo	$r4$r5$r6$r3$r1$r2
-echo	$r4$r6$r5$r3$r1$r2
-echo	$r6$r4$r5$r3$r1$r2
-echo	$r6$r4$r3$r5$r1$r2
-echo	$r4$r6$r3$r5$r1$r2
-echo	$r4$r3$r6$r5$r1$r2
-echo	$r4$r3$r5$r6$r1$r2
-echo	$r4$r3$r5$r1$r6$r2
-echo	$r4$r3$r5$r1$r2$r6
-echo	$r4$r3$r1$r5$r2$r6
-echo	$r4$r3$r1$r5$r6$r2
-echo	$r4$r3$r1$r6$r5$r2
-echo	$r4$r3$r6$r1$r5$r2
-echo	$r4$r6$r3$r1$r5$r2
-echo	$r6$r4$r3$r1$r5$r2
-echo	$r6$r4$r3$r1$r2$r5
-echo	$r4$r6$r3$r1$r2$r5
-echo	$r4$r3$r6$r1$r2$r5
-echo	$r4$r3$r1$r6$r2$r5
-echo	$r4$r3$r1$r2$r6$r5
-echo	$r4$r3$r1$r2$r5$r6
-echo	$r4$r3$r2$r1$r5$r6
-echo	$r4$r3$r2$r1$r6$r5
-echo	$r4$r3$r2$r6$r1$r5
-echo	$r4$r3$r6$r2$r1$r5
-echo	$r4$r6$r3$r2$r1$r5
-echo	$r6$r4$r3$r2$r1$r5
-echo	$r6$r4$r3$r2$r5$r1
-echo	$r4$r6$r3$r2$r5$r1
-echo	$r4$r3$r6$r2$r5$r1
-echo	$r4$r3$r2$r6$r5$r1
-echo	$r4$r3$r2$r5$r6$r1
-echo	$r4$r3$r2$r5$r1$r6
-echo	$r4$r2$r5$r1$r3$r6
-echo	$r4$r2$r5$r1$r6$r3
-echo	$r4$r2$r5$r6$r1$r3
-echo	$r4$r2$r6$r5$r1$r3
-echo	$r4$r6$r2$r5$r1$r3
-echo	$r6$r4$r2$r5$r1$r3
-echo	$r6$r4$r5$r2$r1$r3
-echo	$r4$r6$r5$r2$r1$r3
-echo	$r4$r5$r6$r2$r1$r3
-echo	$r4$r5$r2$r6$r1$r3
-echo	$r4$r5$r2$r1$r6$r3
-echo	$r4$r5$r2$r1$r3$r6
-echo	$r5$r4$r2$r1$r3$r6
-echo	$r5$r4$r2$r1$r6$r3
-echo	$r5$r4$r2$r6$r1$r3
-echo	$r5$r4$r6$r2$r1$r3
-echo	$r5$r6$r4$r2$r1$r3
-echo	$r6$r5$r4$r2$r1$r3
-echo	$r6$r5$r2$r1$r4$r3
-echo	$r5$r6$r2$r4$r1$r3
-echo	$r5$r2$r6$r4$r1$r3
-echo	$r5$r2$r4$r6$r1$r3
-echo	$r5$r2$r4$r1$r6$r3
-echo	$r5$r2$r4$r1$r3$r6
-echo	$r2$r5$r4$r1$r3$r6
-echo	$r2$r5$r4$r1$r6$r3
-echo	$r2$r5$r4$r6$r1$r3
-echo	$r2$r5$r6$r4$r1$r3
-echo	$r2$r6$r5$r4$r1$r3
-echo	$r6$r2$r5$r4$r1$r3
-echo	$r6$r2$r4$r5$r1$r3
-echo	$r2$r6$r4$r5$r1$r3
-echo	$r2$r4$r6$r5$r1$r3
-echo	$r2$r4$r5$r6$r1$r3
-echo	$r2$r4$r5$r1$r6$r3
-echo	$r2$r4$r5$r1$r3$r6
-echo	$r2$r4$r1$r5$r3$r6
-echo	$r2$r4$r1$r5$r6$r3
-echo	$r2$r4$r1$r6$r5$r3
-echo	$r2$r4$r6$r1$r5$r3
-echo	$r2$r6$r4$r1$r5$r3
-echo	$r6$r2$r4$r1$r5$r3
-echo	$r6$r2$r4$r1$r3$r5
-echo	$r2$r6$r4$r1$r3$r5
-echo	$r2$r4$r6$r1$r3$r5
-echo	$r2$r4$r1$r6$r3$r5
-echo	$r2$r4$r1$r3$r6$r5
-echo	$r2$r4$r1$r3$r5$r6
-echo	$r2$r1$r4$r3$r5$r6
-echo	$r2$r1$r4$r3$r6$r5
-echo	$r2$r1$r4$r6$r3$r5
-echo	$r2$r1$r6$r4$r3$r5
-echo	$r2$r6$r1$r4$r3$r5
-echo	$r6$r2$r1$r4$r3$r5
-echo	$r6$r2$r1$r4$r5$r3
-echo	$r2$r6$r1$r4$r5$r3
-echo	$r2$r1$r6$r4$r5$r3
-echo	$r2$r1$r4$r6$r5$r3
-echo	$r2$r1$r4$r5$r6$r3
-echo	$r2$r1$r4$r5$r3$r6
-echo	$r2$r1$r5$r4$r3$r6
-echo	$r2$r1$r5$r4$r6$r3
-echo	$r2$r1$r5$r6$r4$r3
-echo	$r2$r1$r6$r5$r4$r3
-echo	$r2$r4$r6$r3$r5$r1
-echo	$r2$r4$r3$r6$r5$r1
-echo	$r2$r4$r3$r5$r6$r1
-echo	$r2$r4$r3$r5$r1$r6
-echo	$r2$r4$r5$r3$r1$r6
-echo	$r2$r4$r5$r3$r6$r1
-echo	$r2$r4$r5$r6$r3$r1
-echo	$r2$r4$r6$r5$r3$r1
-echo	$r2$r6$r4$r5$r3$r1
-echo	$r6$r2$r4$r5$r3$r1
-echo	$r6$r2$r5$r4$r3$r1
-echo	$r2$r6$r5$r4$r3$r1
-echo	$r2$r5$r6$r4$r3$r1
-echo	$r2$r5$r4$r6$r3$r1
-echo	$r2$r5$r4$r3$r6$r1
-echo	$r2$r5$r4$r3$r1$r6
-echo	$r5$r2$r4$r3$r1$r6
-echo	$r5$r2$r4$r3$r6$r1
-echo	$r5$r2$r4$r6$r3$r1
-echo	$r5$r2$r6$r4$r3$r1
-echo	$r5$r6$r2$r4$r3$r1
-echo	$r6$r5$r2$r4$r3$r1
-echo	$r6$r5$r4$r2$r3$r1
-echo	$r5$r6$r4$r2$r3$r1
-echo	$r5$r4$r6$r2$r3$r1
-echo	$r5$r4$r2$r6$r3$r1
-echo	$r5$r4$r2$r3$r6$r1
-echo	$r5$r4$r2$r3$r1$r6
-echo	$r4$r5$r2$r3$r1$r6
-echo	$r4$r5$r2$r3$r6$r1
-echo	$r4$r5$r2$r6$r3$r1
-echo	$r4$r5$r6$r2$r3$r1
-echo	$r4$r6$r5$r2$r3$r1
-echo	$r6$r4$r5$r2$r3$r1
-echo	$r6$r4$r2$r5$r3$r1
-echo	$r4$r6$r2$r5$r3$r1
-echo	$r4$r2$r6$r5$r3$r1
-echo	$r4$r2$r5$r6$r3$r1
-echo	$r4$r2$r5$r3$r6$r1
-echo	$r4$r2$r5$r3$r1$r6
-echo	$r4$r2$r3$r5$r1$r6
-echo	$r4$r2$r3$r5$r6$r1
-echo	$r4$r2$r3$r6$r5$r1
-echo	$r4$r2$r6$r3$r5$r1
-echo	$r4$r6$r2$r3$r5$r1
-echo	$r6$r4$r2$r3$r5$r1
-echo	$r6$r4$r2$r3$r1$r5
-echo	$r4$r6$r2$r3$r1$r5
-echo	$r4$r2$r6$r3$r1$r5
-echo	$r4$r2$r3$r6$r1$r5
-echo	$r4$r2$r3$r1$r6$r5
-echo	$r4$r2$r3$r1$r5$r6
-echo	$r4$r2$r1$r3$r5$r6
-echo	$r4$r2$r1$r3$r6$r5
-echo	$r4$r2$r1$r6$r3$r5
-echo	$r4$r2$r6$r1$r3$r5
-echo	$r4$r6$r2$r1$r3$r5
-echo	$r6$r4$r2$r1$r3$r5
-echo	$r6$r4$r2$r1$r5$r3
-echo	$r4$r6$r2$r1$r5$r3
-echo	$r4$r2$r6$r1$r5$r3
-echo	$r4$r2$r1$r6$r5$r3
-echo	$r4$r2$r1$r5$r6$r3
-echo	$r4$r2$r1$r5$r3$r6
-echo	$r4$r3$r6$r2$r5$r1
-echo	$r4$r3$r2$r6$r5$r1
-echo	$r4$r3$r2$r5$r6$r1
-echo	$r4$r3$r2$r5$r1$r6
-echo	$r4$r3$r5$r2$r1$r6
-echo	$r4$r3$r5$r2$r6$r1
-echo	$r4$r3$r5$r6$r2$r1
-echo	$r4$r3$r6$r5$r2$r1
-echo	$r4$r6$r3$r5$r2$r1
-echo	$r6$r4$r3$r5$r2$r1
-echo	$r6$r4$r5$r3$r2$r1
-echo	$r4$r6$r5$r3$r2$r1
-echo	$r4$r5$r6$r3$r2$r1
-echo	$r4$r5$r3$r6$r2$r1
-echo	$r4$r5$r3$r2$r6$r1
-echo	$r4$r5$r3$r2$r1$r6
-echo	$r5$r4$r3$r2$r1$r6
-echo	$r5$r4$r3$r2$r6$r1
-echo	$r5$r4$r3$r6$r2$r1
-echo	$r5$r4$r6$r3$r2$r1
-echo	$r5$r6$r4$r3$r2$r1
-echo	$r6$r5$r4$r3$r2$r1
-echo	$r6$r5$r3$r4$r2$r1
-echo	$r5$r6$r3$r4$r2$r1
-echo	$r5$r3$r6$r4$r2$r1
-echo	$r5$r3$r4$r6$r2$r1
-echo	$r5$r3$r4$r2$r6$r1
-echo	$r5$r3$r4$r2$r1$r6
-echo	$r3$r5$r4$r2$r1$r6
-echo	$r3$r5$r4$r2$r6$r1
-echo	$r3$r5$r4$r6$r2$r1
-echo	$r3$r5$r6$r4$r2$r1
-echo	$r3$r6$r5$r4$r2$r1
-echo	$r6$r3$r5$r4$r2$r1
-echo	$r6$r3$r4$r5$r2$r1
-echo	$r3$r6$r4$r5$r2$r1
-echo	$r3$r4$r6$r5$r2$r1
-echo	$r3$r4$r5$r6$r2$r1
-echo	$r3$r4$r5$r2$r6$r1
-echo	$r3$r4$r5$r2$r1$r6
-echo	$r3$r4$r2$r5$r1$r6
-echo	$r3$r4$r2$r5$r6$r1
-echo	$r3$r4$r2$r6$r5$r1
-echo	$r3$r4$r6$r2$r5$r1
-echo	$r3$r6$r4$r2$r5$r1
-echo	$r6$r3$r4$r2$r5$r1
-echo	$r6$r3$r4$r2$r1$r5
-echo	$r3$r6$r4$r2$r1$r5
-echo	$r3$r4$r6$r2$r1$r5
-echo	$r3$r4$r2$r6$r1$r5
-echo	$r3$r4$r2$r1$r6$r5
-echo	$r3$r4$r2$r1$r5$r6
-echo	$r3$r2$r4$r1$r5$r6
-echo	$r3$r2$r4$r1$r6$r5
-echo	$r3$r2$r4$r6$r1$r5
-echo	$r3$r2$r6$r4$r1$r5
-echo	$r3$r6$r2$r4$r1$r5
-echo	$r6$r3$r2$r4$r1$r5
-echo	$r6$r3$r2$r4$r5$r1
-echo	$r3$r6$r2$r4$r5$r1
-echo	$r3$r2$r6$r4$r5$r1
-echo	$r3$r2$r4$r6$r5$r1
-echo	$r3$r2$r4$r5$r6$r1
-echo	$r3$r2$r4$r5$r1$r6
-echo	$r3$r2$r5$r4$r1$r6
-echo	$r3$r2$r5$r4$r6$r1
-echo	$r3$r2$r5$r4$r1$r6
-echo	$r3$r2$r5$r4$r6$r1
-echo	$r3$r2$r5$r6$r4$r1
-echo	$r3$r2$r6$r5$r4$r1
-echo	$r3$r2$r5$r6$r4$r1
-echo	$r3$r2$r6$r5$r4$r1
-echo	$r1$r6$r3$r4$r2$r5
-echo	$r6$r1$r3$r4$r2$r5
-echo	$r6$r1$r3$r4$r5$r2
-echo	$r1$r6$r3$r4$r5$r2
-echo	$r1$r3$r6$r4$r5$r2
-echo	$r1$r3$r4$r6$r5$r2
-echo	$r1$r3$r4$r5$r6$r2
-echo	$r1$r3$r4$r5$r2$r6
-echo	$r1$r3$r5$r4$r2$r6
-echo	$r1$r3$r5$r4$r6$r2
-echo	$r1$r3$r5$r6$r4$r2
-echo	$r1$r3$r6$r5$r4$r2
-echo	$r1$r6$r3$r5$r4$r2
-echo	$r6$r1$r3$r5$r4$r2
-echo	$r6$r1$r5$r3$r4$r2
-echo	$r1$r6$r5$r3$r4$r2
-echo	$r1$r5$r6$r3$r4$r2
-echo	$r1$r5$r3$r6$r4$r2
-echo	$r1$r5$r3$r4$r6$r2
-echo	$r1$r5$r3$r4$r2$r6
-echo	$r5$r1$r3$r4$r2$r6
-echo	$r5$r1$r3$r4$r6$r2
-echo	$r5$r1$r3$r6$r4$r2
-echo	$r5$r1$r6$r3$r4$r2
-echo	$r5$r6$r1$r3$r4$r2
-echo	$r6$r5$r1$r3$r4$r2
-echo	$r6$r5$r1$r3$r2$r4
-echo	$r5$r6$r1$r3$r2$r4
-echo	$r5$r1$r6$r3$r2$r4
-echo	$r5$r1$r3$r6$r2$r4
-echo	$r5$r1$r3$r2$r6$r4
-echo	$r5$r1$r3$r2$r4$r6
-echo	$r1$r5$r3$r2$r4$r6
-echo	$r1$r5$r3$r2$r6$r4
-echo	$r1$r5$r3$r6$r2$r4
-echo	$r1$r5$r6$r3$r2$r4
-echo	$r1$r6$r5$r3$r2$r4
-echo	$r6$r1$r5$r3$r2$r4
-echo	$r6$r1$r3$r5$r2$r4
-echo	$r1$r6$r3$r5$r2$r4
-echo	$r1$r3$r6$r5$r2$r4
-echo	$r1$r3$r5$r6$r2$r4
-echo	$r1$r3$r5$r2$r6$r4
-echo	$r1$r3$r5$r2$r4$r6
-echo	$r1$r3$r2$r5$r4$r6
-echo	$r1$r3$r2$r5$r6$r4
-echo	$r1$r3$r2$r6$r5$r4
-echo	$r1$r3$r6$r2$r5$r4
-echo	$r1$r6$r3$r2$r5$r4
-echo	$r6$r1$r3$r2$r5$r4
-echo	$r6$r1$r3$r2$r4$r5
-echo	$r1$r6$r3$r2$r4$r5
-echo	$r1$r3$r6$r2$r4$r5
-echo	$r1$r3$r2$r6$r4$r5
-echo	$r1$r3$r2$r4$r6$r5
-echo	$r1$r3$r2$r4$r5$r6
-echo	$r3$r1$r2$r4$r5$r6
-echo	$r3$r1$r2$r4$r6$r5
-echo	$r3$r1$r2$r6$r4$r5
-echo	$r3$r1$r6$r2$r4$r5
-echo	$r3$r6$r1$r2$r4$r5
-echo	$r6$r3$r1$r2$r4$r5
-echo	$r6$r3$r1$r2$r5$r4
-echo	$r3$r6$r1$r2$r5$r4
-echo	$r2$r4$r6$r1$r3$r5
-echo	$r2$r4$r1$r6$r3$r5
-echo	$r2$r4$r1$r3$r6$r5
-echo	$r2$r4$r1$r3$r5$r6
-echo	$r2$r1$r4$r3$r5$r6
-echo	$r2$r1$r4$r3$r6$r5
-echo	$r2$r1$r4$r6$r3$r5
-echo	$r2$r1$r6$r4$r3$r5
-echo	$r2$r6$r1$r4$r3$r5
-echo	$r6$r2$r1$r4$r3$r5
-echo	$r6$r2$r1$r4$r5$r3
-echo	$r2$r6$r1$r4$r5$r3
-echo	$r2$r1$r6$r4$r5$r3
-echo	$r2$r1$r4$r6$r5$r3
-echo	$r2$r1$r4$r5$r6$r3
-echo	$r2$r1$r4$r5$r3$r6
-echo	$r2$r1$r5$r4$r3$r6
-echo	$r2$r1$r5$r4$r6$r3
-echo	$r2$r1$r5$r6$r4$r3
-echo	$r2$r1$r6$r5$r4$r3
-echo	$r2$r6$r1$r5$r4$r3
-echo	$r6$r2$r1$r5$r4$r3
-echo	$r6$r2$r5$r1$r4$r3
-echo	$r2$r6$r5$r1$r4$r3
-echo	$r2$r5$r6$r1$r4$r3
-echo	$r2$r5$r1$r6$r4$r3
-echo	$r2$r5$r1$r4$r6$r3
-echo	$r2$r5$r1$r4$r3$r6
-echo	$r5$r2$r1$r4$r3$r6
-echo	$r5$r2$r1$r4$r6$r3
-echo	$r5$r2$r1$r6$r4$r3
-echo	$r5$r2$r6$r1$r4$r3
-echo	$r5$r6$r2$r1$r4$r3
-echo	$r6$r5$r2$r1$r4$r3
-echo	$r6$r5$r2$r1$r3$r4
-echo	$r5$r6$r2$r1$r3$r4
-echo	$r5$r2$r6$r1$r3$r4
-echo	$r5$r2$r1$r6$r3$r4
-echo	$r5$r2$r1$r3$r6$r4
-echo	$r5$r2$r1$r3$r4$r6
-echo	$r2$r5$r1$r3$r4$r6
-echo	$r2$r5$r1$r3$r6$r4
-echo	$r2$r5$r1$r6$r3$r4
-echo	$r2$r5$r6$r1$r3$r4
-echo	$r2$r6$r5$r1$r3$r4
-echo	$r6$r2$r5$r1$r3$r4
-echo	$r6$r2$r1$r5$r3$r4
-echo	$r2$r6$r1$r5$r3$r4
-echo	$r2$r1$r6$r5$r3$r4
-echo	$r2$r1$r5$r6$r3$r4
-echo	$r2$r1$r5$r3$r6$r4
-echo	$r2$r1$r5$r3$r4$r6
-echo	$r2$r1$r3$r5$r4$r6
-echo	$r2$r1$r3$r5$r6$r4
-echo	$r2$r1$r3$r6$r5$r4
-echo	$r2$r1$r6$r3$r5$r4
-echo	$r2$r6$r1$r3$r5$r4
-echo	$r6$r2$r1$r3$r5$r4
-echo	$r6$r2$r1$r3$r4$r5
-echo	$r2$r6$r1$r3$r4$r5
-echo	$r2$r1$r6$r3$r4$r5
-echo	$r2$r1$r3$r6$r4$r5
-echo	$r2$r1$r3$r4$r6$r5
-echo	$r2$r1$r3$r4$r5$r6
-echo	$r4$r1$r6$r3$r5$r2
-echo	$r4$r1$r3$r6$r5$r2
-echo	$r4$r1$r3$r5$r6$r2
-echo	$r4$r1$r3$r5$r2$r6
-echo	$r4$r1$r5$r3$r2$r6
-echo	$r4$r1$r5$r3$r6$r2
-echo	$r4$r1$r5$r6$r3$r2
-echo	$r4$r1$r6$r5$r3$r2
-echo	$r4$r6$r1$r5$r3$r2
-echo	$r6$r4$r1$r5$r3$r2
-echo	$r6$r4$r5$r1$r3$r2
-echo	$r4$r6$r5$r1$r3$r2
-echo	$r4$r5$r6$r1$r3$r2
-echo	$r4$r5$r1$r6$r3$r2
-echo	$r4$r5$r1$r3$r6$r2
-echo	$r4$r5$r1$r3$r2$r6
-echo	$r5$r4$r1$r3$r2$r6
-echo	$r5$r4$r1$r3$r6$r2
-echo	$r5$r4$r1$r6$r3$r2
-echo	$r5$r4$r6$r1$r3$r2
-echo	$r5$r6$r4$r1$r3$r2
-echo	$r6$r5$r4$r1$r3$r2
-echo	$r6$r5$r1$r4$r3$r2
-echo	$r5$r6$r1$r4$r3$r2
-echo	$r5$r1$r6$r4$r3$r2
-echo	$r5$r1$r4$r6$r3$r2
-echo	$r5$r1$r4$r3$r6$r2
-echo	$r5$r1$r4$r3$r2$r6
-echo	$r1$r5$r4$r3$r2$r6
-echo	$r1$r5$r4$r3$r6$r2
-echo	$r1$r5$r4$r6$r3$r2
-echo	$r1$r5$r6$r4$r3$r2
-echo	$r1$r6$r5$r4$r3$r2
-echo	$r6$r1$r5$r4$r3$r2
-echo	$r6$r1$r4$r5$r3$r2
-echo	$r1$r6$r4$r5$r3$r2
-echo	$r1$r4$r6$r5$r3$r2
-echo	$r1$r4$r5$r6$r3$r2
-echo	$r1$r4$r5$r3$r6$r2
-echo	$r1$r4$r5$r3$r2$r6
-echo	$r1$r4$r3$r5$r2$r6
-echo	$r1$r4$r3$r5$r6$r2
-echo	$r1$r4$r3$r6$r5$r2
-echo	$r1$r4$r6$r3$r5$r2
-echo	$r1$r6$r4$r3$r5$r2
-echo	$r6$r1$r4$r3$r5$r2
-echo	$r6$r1$r4$r3$r2$r5
-echo	$r1$r6$r4$r3$r2$r5
-echo	$r1$r4$r6$r3$r2$r5
-echo	$r1$r4$r3$r6$r2$r5
-echo	$r1$r4$r3$r2$r6$r5
-echo	$r1$r4$r3$r2$r5$r6
-echo	$r1$r3$r4$r2$r5$r6
-echo	$r1$r3$r4$r2$r6$r5
-echo	$r1$r3$r4$r6$r2$r5
-echo	$r1$r3$r6$r4$r2$r5
-echo	$r1$r6$r3$r4$r2$r5
-echo	$r6$r1$r3$r4$r2$r5
-echo	$r6$r1$r3$r4$r5$r2
-echo	$r1$r6$r3$r4$r5$r2
-echo	$r1$r3$r6$r4$r5$r2
-echo	$r1$r3$r4$r6$r5$r2
-echo	$r1$r3$r4$r5$r6$r2
-echo	$r1$r3$r4$r5$r2$r6
-echo	$r2$r3$r6$r1$r5$r4
-echo	$r2$r3$r1$r6$r5$r4
-echo	$r2$r3$r1$r5$r6$r4
-echo	$r2$r3$r1$r5$r4$r6
-echo	$r2$r3$r5$r1$r4$r6
-echo	$r2$r3$r5$r1$r6$r4
-echo	$r2$r3$r5$r6$r1$r4
-echo	$r2$r3$r6$r5$r1$r4
-echo	$r2$r6$r3$r5$r1$r4
-echo	$r6$r2$r3$r5$r1$r4
-echo	$r6$r2$r5$r3$r1$r4
-echo	$r2$r6$r5$r3$r1$r4
-echo	$r2$r5$r6$r3$r1$r4
-echo	$r2$r5$r3$r6$r1$r4
-echo	$r2$r5$r3$r1$r6$r4
-echo	$r2$r5$r3$r1$r4$r6
-echo	$r5$r2$r3$r1$r4$r6
-echo	$r5$r2$r3$r1$r6$r4
-echo	$r5$r2$r3$r6$r1$r4
-echo	$r5$r2$r6$r3$r1$r4
-echo	$r5$r6$r2$r3$r1$r4
-echo	$r6$r5$r2$r3$r1$r4
-echo	$r6$r5$r2$r3$r4$r1
-echo	$r5$r6$r2$r3$r4$r1
-echo	$r5$r2$r6$r3$r4$r1
-echo	$r5$r2$r3$r6$r4$r1
-echo	$r5$r2$r3$r4$r6$r1
-echo	$r5$r2$r3$r4$r1$r6
-echo	$r2$r5$r3$r4$r1$r6
-echo	$r2$r5$r3$r4$r6$r1
-echo	$r2$r5$r3$r6$r4$r1
-echo	$r2$r5$r6$r3$r4$r1
-echo	$r2$r6$r5$r3$r4$r1
-echo	$r6$r2$r5$r3$r4$r1
-echo	$r6$r2$r3$r5$r4$r1
-echo	$r2$r6$r3$r5$r4$r1
-echo	$r2$r3$r6$r5$r4$r1
-echo	$r2$r3$r5$r6$r4$r1
-echo	$r2$r3$r5$r4$r6$r1
-echo	$r2$r3$r5$r4$r1$r6
-echo	$r2$r3$r4$r5$r1$r6
-echo	$r2$r3$r4$r5$r6$r1
-echo	$r2$r3$r4$r6$r5$r1
-echo	$r2$r3$r6$r4$r5$r1
-echo	$r2$r6$r3$r4$r5$r1
-echo	$r6$r2$r3$r4$r5$r1
-echo	$r6$r2$r3$r4$r1$r5
-echo	$r2$r6$r3$r4$r1$r5
-echo	$r2$r3$r6$r4$r1$r5
-echo	$r2$r3$r4$r6$r1$r5
-echo	$r2$r3$r4$r1$r6$r5
-echo	$r2$r3$r4$r1$r5$r6
-echo	$r2$r4$r3$r1$r5$r6
-echo	$r2$r4$r3$r1$r6$r5
-echo	$r2$r4$r3$r6$r1$r5
-echo	$r2$r4$r6$r3$r1$r5
-echo	$r2$r6$r4$r3$r1$r5
-echo	$r6$r2$r4$r3$r1$r5
-echo	$r6$r2$r4$r3$r5$r1
-echo	$r2$r6$r4$r3$r5$r1
-echo	$r2$r4$r6$r3$r5$r1
-echo	$r2$r4$r3$r6$r5$r1
-echo	$r2$r4$r3$r5$r6$r1
-echo	$r2$r4$r3$r5$r1$r6
-echo	$r4$r3$r6$r2$r5$r1
-echo	$r4$r3$r2$r6$r5$r1
-echo	$r4$r3$r2$r5$r6$r1
-echo	$r4$r3$r2$r5$r1$r6
-echo	$r4$r3$r5$r2$r1$r6
-echo	$r4$r3$r5$r2$r6$r1
-echo	$r4$r3$r5$r6$r2$r1
-echo	$r4$r3$r6$r5$r2$r1
-echo	$r4$r6$r3$r5$r2$r1
-echo	$r6$r4$r3$r5$r2$r1
-echo	$r6$r4$r5$r3$r2$r1
-echo	$r4$r6$r5$r3$r2$r1
-echo	$r4$r5$r6$r3$r2$r1
-echo	$r4$r5$r3$r6$r2$r1
-echo	$r4$r5$r3$r2$r6$r1
-echo	$r4$r5$r3$r2$r1$r6
-echo	$r5$r4$r3$r2$r1$r6
-echo	$r5$r4$r3$r2$r6$r1
-echo	$r5$r4$r3$r6$r2$r1
-echo	$r5$r4$r6$r3$r2$r1
-echo	$r5$r6$r4$r3$r2$r1
-echo	$r6$r5$r4$r3$r2$r1
-echo	$r6$r5$r3$r4$r2$r1
-echo	$r5$r6$r3$r4$r2$r1
-echo	$r5$r3$r6$r4$r2$r1
-echo	$r5$r3$r4$r6$r2$r1
-echo	$r5$r3$r4$r2$r6$r1
-echo	$r5$r3$r4$r2$r1$r6
-echo	$r3$r5$r4$r2$r1$r6
-echo	$r3$r5$r4$r2$r6$r1
-echo	$r3$r5$r4$r6$r2$r1
-echo	$r3$r5$r6$r4$r2$r1
-echo	$r3$r6$r5$r4$r2$r1
-echo	$r6$r3$r5$r4$r2$r1
-echo	$r6$r3$r4$r5$r2$r1
-echo	$r3$r6$r4$r5$r2$r1
-echo	$r3$r4$r6$r5$r2$r1
-echo	$r3$r4$r5$r6$r2$r1
-echo	$r3$r4$r5$r2$r6$r1
-echo	$r3$r4$r5$r2$r1$r6
-echo	$r3$r4$r2$r5$r1$r6
-echo	$r3$r4$r2$r5$r6$r1
-echo	$r3$r4$r2$r6$r5$r1
-echo	$r3$r4$r6$r2$r5$r1
-echo	$r3$r6$r4$r2$r5$r1
-echo	$r6$r3$r4$r2$r5$r1
-echo	$r6$r3$r4$r2$r1$r5
-echo	$r3$r6$r4$r2$r1$r5
-echo	$r3$r4$r6$r2$r1$r5
-echo	$r3$r4$r2$r6$r1$r5
-echo	$r3$r4$r2$r1$r6$r5
-echo	$r3$r4$r2$r1$r5$r6
-echo	$r3$r2$r4$r1$r5$r6
-echo	$r3$r2$r4$r1$r6$r5
-echo	$r3$r2$r4$r6$r1$r5
-echo	$r3$r2$r6$r4$r1$r5
-echo	$r3$r6$r2$r4$r1$r5
-echo	$r6$r3$r2$r4$r1$r5
-echo	$r6$r3$r2$r4$r5$r1
-echo	$r3$r6$r2$r4$r5$r1
-echo	$r3$r2$r6$r4$r5$r1
-echo	$r3$r2$r4$r6$r5$r1
-echo	$r3$r2$r4$r5$r6$r1
-echo	$r3$r2$r4$r5$r1$r6
-echo	$r3$r2$r5$r4$r1$r6
-echo	$r3$r2$r5$r4$r6$r1
-echo	$r3$r2$r5$r6$r4$r1
-echo	$r3$r2$r6$r5$r4$r1
+echo	$r1$r2$r3$r4$r5$r6 >> output.txt
+echo	$r1$r2$r3$r4$r6$r5 >> output.txt
+echo	$r1$r2$r3$r6$r4$r5 >> output.txt
+echo	$r1$r2$r6$r3$r4$r5 >> output.txt
+echo	$r1$r6$r2$r3$r4$r5 >> output.txt
+echo	$r6$r1$r2$r3$r4$r5 >> output.txt
+echo	$r6$r1$r2$r3$r5$r4 >> output.txt
+echo	$r1$r6$r2$r3$r5$r4 >> output.txt
+echo	$r1$r2$r6$r3$r5$r4 >> output.txt
+echo	$r1$r2$r3$r6$r5$r4 >> output.txt
+echo	$r1$r2$r3$r5$r6$r4 >> output.txt
+echo	$r1$r2$r3$r5$r4$r6 >> output.txt
+echo	$r1$r2$r5$r3$r4$r6 >> output.txt
+echo	$r1$r2$r5$r3$r6$r4 >> output.txt
+echo	$r1$r2$r5$r6$r3$r4 >> output.txt
+echo	$r1$r2$r6$r5$r3$r4 >> output.txt
+echo	$r1$r6$r2$r5$r3$r4 >> output.txt
+echo	$r6$r1$r2$r5$r3$r4 >> output.txt
+echo	$r6$r1$r5$r2$r3$r4 >> output.txt
+echo	$r6$r5$r1$r2$r3$r4 >> output.txt
+echo	$r6$r5$r1$r2$r4$r3 >> output.txt
+echo	$r5$r6$r1$r2$r4$r3 >> output.txt
+echo	$r5$r1$r2$r6$r4$r3 >> output.txt
+echo	$r5$r1$r2$r4$r6$r3 >> output.txt
+echo	$r5$r1$r2$r4$r3$r6 >> output.txt
+echo	$r1$r5$r2$r4$r3$r6 >> output.txt
+echo	$r1$r5$r2$r4$r6$r3 >> output.txt
+echo	$r1$r5$r2$r6$r4$r3 >> output.txt
+echo	$r1$r5$r6$r2$r4$r3 >> output.txt
+echo	$r1$r6$r5$r2$r4$r3 >> output.txt
+echo	$r6$r1$r5$r2$r4$r3 >> output.txt
+echo	$r6$r1$r2$r5$r4$r3 >> output.txt
+echo	$r1$r6$r2$r5$r4$r3 >> output.txt
+echo	$r1$r2$r6$r5$r4$r3 >> output.txt
+echo	$r1$r2$r5$r6$r4$r3 >> output.txt
+echo	$r1$r2$r5$r4$r6$r3 >> output.txt
+echo	$r1$r2$r5$r4$r3$r6 >> output.txt
+echo	$r1$r2$r4$r5$r3$r6 >> output.txt
+echo	$r1$r2$r4$r5$r6$r3 >> output.txt
+echo	$r1$r2$r4$r6$r5$r3 >> output.txt
+echo	$r1$r2$r6$r4$r5$r3 >> output.txt
+echo	$r1$r6$r2$r4$r5$r3 >> output.txt
+echo	$r6$r1$r2$r4$r5$r3 >> output.txt
+echo	$r6$r1$r2$r4$r3$r5 >> output.txt
+echo	$r1$r6$r2$r4$r3$r5 >> output.txt
+echo	$r1$r2$r6$r4$r3$r5 >> output.txt
+echo	$r1$r2$r4$r6$r3$r5 >> output.txt
+echo	$r1$r2$r4$r3$r6$r5 >> output.txt
+echo	$r1$r2$r4$r3$r5$r6 >> output.txt
+echo	$r1$r4$r2$r3$r5$r6 >> output.txt
+echo	$r1$r4$r2$r3$r6$r5 >> output.txt
+echo	$r1$r4$r2$r6$r3$r5 >> output.txt
+echo	$r1$r4$r6$r2$r3$r5 >> output.txt
+echo	$r1$r6$r4$r2$r3$r5 >> output.txt
+echo	$r6$r1$r4$r2$r3$r5 >> output.txt
+echo	$r6$r1$r4$r2$r5$r3 >> output.txt
+echo	$r1$r6$r4$r2$r5$r3 >> output.txt
+echo	$r1$r4$r6$r2$r5$r3 >> output.txt
+echo	$r1$r4$r2$r6$r5$r3 >> output.txt
+echo	$r1$r4$r2$r5$r6$r3 >> output.txt
+echo	$r1$r4$r2$r5$r3$r6 >> output.txt
+echo	$r1$r4$r5$r2$r3$r6 >> output.txt
+echo	$r1$r4$r5$r2$r6$r3 >> output.txt
+echo	$r1$r4$r5$r6$r2$r3 >> output.txt
+echo	$r1$r4$r6$r5$r2$r3 >> output.txt
+echo	$r1$r6$r4$r5$r2$r3 >> output.txt
+echo	$r6$r1$r4$r5$r2$r3 >> output.txt
+echo	$r6$r1$r5$r4$r2$r3 >> output.txt
+echo	$r1$r6$r5$r4$r2$r3 >> output.txt
+echo	$r1$r5$r6$r4$r2$r3 >> output.txt
+echo	$r1$r5$r4$r6$r2$r3 >> output.txt
+echo	$r1$r5$r4$r2$r6$r3 >> output.txt
+echo	$r1$r5$r4$r2$r3$r6 >> output.txt
+echo	$r5$r1$r4$r2$r3$r6 >> output.txt
+echo	$r5$r1$r4$r2$r6$r3 >> output.txt
+echo	$r5$r1$r4$r6$r2$r3 >> output.txt
+echo	$r5$r1$r6$r4$r2$r3 >> output.txt
+echo	$r5$r6$r1$r4$r2$r3 >> output.txt
+echo	$r6$r5$r1$r4$r2$r3 >> output.txt
+echo	$r6$r5$r4$r1$r2$r3 >> output.txt
+echo	$r5$r6$r4$r1$r2$r3 >> output.txt
+echo	$r5$r4$r6$r1$r2$r3 >> output.txt
+echo	$r5$r4$r1$r6$r2$r3 >> output.txt
+echo	$r5$r4$r1$r2$r6$r3 >> output.txt
+echo	$r5$r4$r1$r2$r3$r6 >> output.txt
+echo	$r4$r5$r1$r2$r3$r6 >> output.txt
+echo	$r4$r5$r1$r2$r6$r3 >> output.txt
+echo	$r4$r5$r1$r6$r2$r3 >> output.txt
+echo	$r4$r5$r6$r1$r2$r3 >> output.txt
+echo	$r4$r6$r5$r1$r2$r3 >> output.txt
+echo	$r6$r4$r5$r1$r2$r3 >> output.txt
+echo	$r6$r4$r1$r5$r2$r3 >> output.txt
+echo	$r4$r6$r1$r5$r2$r3 >> output.txt
+echo	$r4$r1$r6$r5$r2$r3 >> output.txt
+echo	$r4$r1$r5$r6$r2$r3 >> output.txt
+echo	$r4$r1$r5$r2$r6$r3 >> output.txt
+echo	$r4$r1$r5$r2$r3$r6 >> output.txt
+echo	$r4$r1$r2$r5$r3$r6 >> output.txt
+echo	$r4$r1$r2$r5$r6$r3 >> output.txt
+echo	$r4$r1$r2$r6$r5$r3 >> output.txt
+echo	$r4$r1$r6$r2$r5$r3 >> output.txt
+echo	$r4$r6$r1$r2$r5$r3 >> output.txt
+echo	$r6$r4$r1$r2$r5$r3 >> output.txt
+echo	$r6$r4$r1$r2$r3$r5 >> output.txt
+echo	$r4$r6$r1$r2$r3$r5 >> output.txt
+echo	$r4$r1$r6$r2$r3$r5 >> output.txt
+echo	$r4$r1$r2$r6$r3$r5 >> output.txt
+echo	$r4$r1$r2$r3$r6$r5 >> output.txt
+echo	$r4$r1$r2$r3$r5$r6 >> output.txt
+echo	$r4$r1$r3$r2$r5$r6 >> output.txt
+echo	$r4$r1$r3$r2$r6$r5 >> output.txt
+echo	$r4$r1$r3$r6$r2$r5 >> output.txt
+echo	$r4$r1$r6$r3$r2$r5 >> output.txt
+echo	$r4$r6$r1$r3$r2$r5 >> output.txt
+echo	$r6$r4$r1$r3$r2$r5 >> output.txt
+echo	$r6$r4$r1$r3$r5$r2 >> output.txt
+echo	$r4$r6$r1$r3$r5$r2 >> output.txt
+echo	$r4$r1$r3$r6$r5$r2 >> output.txt
+echo	$r4$r1$r6$r3$r5$r2 >> output.txt
+echo	$r4$r1$r3$r5$r6$r2 >> output.txt
+echo	$r4$r1$r3$r5$r2$r6 >> output.txt
+echo	$r3$r2$r6$r4$r5$r1 >> output.txt
+echo	$r3$r2$r4$r6$r5$r1 >> output.txt
+echo	$r3$r2$r4$r5$r6$r1 >> output.txt
+echo	$r3$r2$r4$r5$r1$r6 >> output.txt
+echo	$r3$r2$r5$r4$r1$r6 >> output.txt
+echo	$r3$r2$r5$r4$r6$r1 >> output.txt
+echo	$r3$r2$r5$r6$r4$r1 >> output.txt
+echo	$r3$r2$r6$r5$r4$r1 >> output.txt
+echo	$r3$r6$r2$r5$r4$r1 >> output.txt
+echo	$r6$r3$r2$r5$r4$r1 >> output.txt
+echo	$r6$r3$r5$r2$r4$r1 >> output.txt
+echo	$r3$r6$r5$r2$r4$r1 >> output.txt
+echo	$r3$r5$r6$r2$r4$r1 >> output.txt
+echo	$r3$r5$r2$r6$r4$r1 >> output.txt
+echo	$r3$r5$r2$r4$r6$r1 >> output.txt
+echo	$r3$r5$r2$r4$r1$r6 >> output.txt
+echo	$r5$r3$r2$r4$r1$r6 >> output.txt
+echo	$r5$r3$r2$r4$r6$r1 >> output.txt
+echo	$r5$r3$r2$r6$r4$r1 >> output.txt
+echo	$r5$r3$r6$r2$r4$r1 >> output.txt
+echo	$r5$r6$r3$r2$r4$r1 >> output.txt
+echo	$r6$r5$r3$r2$r4$r1 >> output.txt
+echo	$r6$r5$r3$r2$r1$r4 >> output.txt
+echo	$r5$r6$r3$r2$r1$r4 >> output.txt
+echo	$r5$r3$r6$r2$r1$r4 >> output.txt
+echo	$r5$r3$r2$r6$r1$r4 >> output.txt
+echo	$r5$r3$r2$r1$r6$r4 >> output.txt
+echo	$r5$r3$r2$r1$r4$r6 >> output.txt
+echo	$r3$r5$r2$r1$r4$r6 >> output.txt
+echo	$r3$r5$r2$r1$r6$r4 >> output.txt
+echo	$r3$r5$r2$r6$r1$r4 >> output.txt
+echo	$r3$r5$r6$r2$r1$r4 >> output.txt
+echo	$r3$r6$r5$r2$r1$r4 >> output.txt
+echo	$r6$r3$r5$r2$r1$r4 >> output.txt
+echo	$r6$r3$r2$r5$r1$r4 >> output.txt
+echo	$r3$r6$r2$r5$r1$r4 >> output.txt
+echo	$r3$r2$r6$r5$r1$r4 >> output.txt
+echo	$r3$r2$r5$r6$r1$r4 >> output.txt
+echo	$r3$r2$r5$r1$r6$r4 >> output.txt
+echo	$r3$r2$r5$r1$r4$r6 >> output.txt
+echo	$r3$r2$r1$r5$r4$r6 >> output.txt
+echo	$r3$r2$r1$r5$r6$r4 >> output.txt
+echo	$r3$r2$r1$r6$r5$r4 >> output.txt                                                         
+echo	$r3$r2$r6$r1$r5$r4 >> output.txt
+echo	$r3$r6$r2$r1$r5$r4 >> output.txt
+echo	$r6$r3$r2$r1$r5$r4 >> output.txt
+echo	$r6$r3$r2$r1$r4$r5 >> output.txt
+echo	$r3$r6$r2$r1$r4$r5 >> output.txt
+echo	$r3$r2$r6$r1$r4$r5 >> output.txt
+echo	$r3$r2$r1$r6$r4$r5 >> output.txt
+echo	$r3$r2$r1$r4$r6$r5 >> output.txt
+echo	$r3$r2$r1$r4$r5$r6 >> output.txt
+echo	$r2$r3$r1$r4$r5$r6 >> output.txt
+echo	$r2$r3$r1$r4$r6$r5 >> output.txt
+echo	$r2$r3$r1$r6$r4$r5 >> output.txt
+echo	$r2$r3$r6$r1$r4$r5 >> output.txt
+echo	$r2$r6$r3$r1$r4$r5 >> output.txt
+echo	$r6$r2$r3$r1$r4$r5 >> output.txt
+echo	$r6$r2$r3$r1$r5$r4 >> output.txt
+echo	$r2$r6$r3$r1$r5$r4 >> output.txt
+echo	$r2$r3$r6$r1$r5$r4 >> output.txt
+echo	$r2$r3$r1$r6$r5$r4 >> output.txt
+echo	$r2$r3$r1$r5$r6$r4 >> output.txt
+echo	$r2$r3$r1$r5$r4$r6 >> output.txt
+echo	$r3$r4$r6$r1$r5$r2 >> output.txt
+echo	$r3$r4$r1$r6$r5$r2 >> output.txt
+echo	$r3$r4$r1$r5$r6$r2 >> output.txt
+echo	$r3$r4$r1$r5$r2$r6 >> output.txt
+echo	$r3$r4$r5$r1$r2$r6 >> output.txt
+echo	$r3$r4$r5$r1$r6$r2 >> output.txt
+echo	$r3$r4$r5$r6$r1$r2 >> output.txt
+echo	$r3$r4$r6$r5$r1$r2 >> output.txt
+echo	$r3$r6$r4$r5$r1$r2 >> output.txt
+echo	$r6$r3$r4$r5$r1$r2 >> output.txt
+echo	$r6$r3$r5$r4$r1$r2 >> output.txt
+echo	$r3$r6$r5$r4$r1$r2 >> output.txt
+echo	$r3$r5$r6$r4$r1$r2 >> output.txt
+echo	$r3$r5$r4$r6$r1$r2 >> output.txt
+echo	$r3$r5$r4$r1$r6$r2 >> output.txt
+echo	$r3$r5$r4$r1$r2$r6 >> output.txt
+echo	$r5$r3$r4$r1$r2$r6 >> output.txt
+echo	$r5$r3$r4$r1$r6$r2 >> output.txt
+echo	$r5$r3$r4$r6$r1$r2 >> output.txt
+echo	$r5$r3$r6$r4$r1$r2 >> output.txt
+echo	$r5$r6$r3$r4$r1$r2 >> output.txt
+echo	$r6$r5$r3$r4$r1$r2 >> output.txt
+echo	$r6$r5$r4$r3$r1$r2 >> output.txt
+echo	$r5$r6$r4$r3$r1$r2 >> output.txt
+echo	$r5$r4$r6$r3$r1$r2 >> output.txt
+echo	$r5$r4$r3$r6$r1$r2 >> output.txt
+echo	$r5$r4$r3$r1$r6$r2 >> output.txt
+echo	$r5$r4$r3$r1$r2$r6 >> output.txt
+echo	$r4$r5$r3$r1$r2$r6 >> output.txt
+echo	$r4$r5$r3$r1$r6$r2 >> output.txt
+echo	$r4$r5$r3$r6$r1$r2 >> output.txt
+echo	$r4$r5$r6$r3$r1$r2 >> output.txt
+echo	$r4$r6$r5$r3$r1$r2 >> output.txt
+echo	$r6$r4$r5$r3$r1$r2 >> output.txt
+echo	$r6$r4$r3$r5$r1$r2 >> output.txt
+echo	$r4$r6$r3$r5$r1$r2 >> output.txt
+echo	$r4$r3$r6$r5$r1$r2 >> output.txt
+echo	$r4$r3$r5$r6$r1$r2 >> output.txt
+echo	$r4$r3$r5$r1$r6$r2 >> output.txt
+echo	$r4$r3$r5$r1$r2$r6 >> output.txt
+echo	$r4$r3$r1$r5$r2$r6 >> output.txt
+echo	$r4$r3$r1$r5$r6$r2 >> output.txt
+echo	$r4$r3$r1$r6$r5$r2 >> output.txt
+echo	$r4$r3$r6$r1$r5$r2 >> output.txt
+echo	$r4$r6$r3$r1$r5$r2 >> output.txt
+echo	$r6$r4$r3$r1$r5$r2 >> output.txt
+echo	$r6$r4$r3$r1$r2$r5 >> output.txt
+echo	$r4$r6$r3$r1$r2$r5 >> output.txt
+echo	$r4$r3$r6$r1$r2$r5 >> output.txt
+echo	$r4$r3$r1$r6$r2$r5 >> output.txt
+echo	$r4$r3$r1$r2$r6$r5 >> output.txt
+echo	$r4$r3$r1$r2$r5$r6 >> output.txt
+echo	$r4$r3$r2$r1$r5$r6 >> output.txt
+echo	$r4$r3$r2$r1$r6$r5 >> output.txt
+echo	$r4$r3$r2$r6$r1$r5 >> output.txt
+echo	$r4$r3$r6$r2$r1$r5 >> output.txt
+echo	$r4$r6$r3$r2$r1$r5 >> output.txt
+echo	$r6$r4$r3$r2$r1$r5 >> output.txt
+echo	$r6$r4$r3$r2$r5$r1 >> output.txt
+echo	$r4$r6$r3$r2$r5$r1 >> output.txt
+echo	$r4$r3$r6$r2$r5$r1 >> output.txt
+echo	$r4$r3$r2$r6$r5$r1 >> output.txt
+echo	$r4$r3$r2$r5$r6$r1 >> output.txt
+echo	$r4$r3$r2$r5$r1$r6 >> output.txt
+echo	$r4$r2$r5$r1$r3$r6 >> output.txt
+echo	$r4$r2$r5$r1$r6$r3 >> output.txt
+echo	$r4$r2$r5$r6$r1$r3 >> output.txt
+echo	$r4$r2$r6$r5$r1$r3 >> output.txt
+echo	$r4$r6$r2$r5$r1$r3 >> output.txt
+echo	$r6$r4$r2$r5$r1$r3 >> output.txt
+echo	$r6$r4$r5$r2$r1$r3 >> output.txt
+echo	$r4$r6$r5$r2$r1$r3 >> output.txt
+echo	$r4$r5$r6$r2$r1$r3 >> output.txt
+echo	$r4$r5$r2$r6$r1$r3 >> output.txt
+echo	$r4$r5$r2$r1$r6$r3 >> output.txt
+echo	$r4$r5$r2$r1$r3$r6 >> output.txt
+echo	$r5$r4$r2$r1$r3$r6 >> output.txt
+echo	$r5$r4$r2$r1$r6$r3 >> output.txt
+echo	$r5$r4$r2$r6$r1$r3 >> output.txt
+echo	$r5$r4$r6$r2$r1$r3 >> output.txt
+echo	$r5$r6$r4$r2$r1$r3 >> output.txt
+echo	$r6$r5$r4$r2$r1$r3 >> output.txt
+echo	$r6$r5$r2$r1$r4$r3 >> output.txt
+echo	$r5$r6$r2$r4$r1$r3 >> output.txt
+echo	$r5$r2$r6$r4$r1$r3 >> output.txt
+echo	$r5$r2$r4$r6$r1$r3 >> output.txt
+echo	$r5$r2$r4$r1$r6$r3 >> output.txt
+echo	$r5$r2$r4$r1$r3$r6 >> output.txt
+echo	$r2$r5$r4$r1$r3$r6 >> output.txt
+echo	$r2$r5$r4$r1$r6$r3 >> output.txt
+echo	$r2$r5$r4$r6$r1$r3 >> output.txt
+echo	$r2$r5$r6$r4$r1$r3 >> output.txt
+echo	$r2$r6$r5$r4$r1$r3 >> output.txt
+echo	$r6$r2$r5$r4$r1$r3 >> output.txt
+echo	$r6$r2$r4$r5$r1$r3 >> output.txt
+echo	$r2$r6$r4$r5$r1$r3 >> output.txt
+echo	$r2$r4$r6$r5$r1$r3 >> output.txt
+echo	$r2$r4$r5$r6$r1$r3 >> output.txt
+echo	$r2$r4$r5$r1$r6$r3 >> output.txt
+echo	$r2$r4$r5$r1$r3$r6 >> output.txt
+echo	$r2$r4$r1$r5$r3$r6 >> output.txt
+echo	$r2$r4$r1$r5$r6$r3 >> output.txt
+echo	$r2$r4$r1$r6$r5$r3 >> output.txt
+echo	$r2$r4$r6$r1$r5$r3 >> output.txt
+echo	$r2$r6$r4$r1$r5$r3 >> output.txt
+echo	$r6$r2$r4$r1$r5$r3 >> output.txt
+echo	$r6$r2$r4$r1$r3$r5 >> output.txt
+echo	$r2$r6$r4$r1$r3$r5 >> output.txt
+echo	$r2$r4$r6$r1$r3$r5 >> output.txt
+echo	$r2$r4$r1$r6$r3$r5 >> output.txt
+echo	$r2$r4$r1$r3$r6$r5 >> output.txt
+echo	$r2$r4$r1$r3$r5$r6 >> output.txt
+echo	$r2$r1$r4$r3$r5$r6 >> output.txt
+echo	$r2$r1$r4$r3$r6$r5 >> output.txt
+echo	$r2$r1$r4$r6$r3$r5 >> output.txt
+echo	$r2$r1$r6$r4$r3$r5 >> output.txt
+echo	$r2$r6$r1$r4$r3$r5 >> output.txt
+echo	$r6$r2$r1$r4$r3$r5 >> output.txt
+echo	$r6$r2$r1$r4$r5$r3 >> output.txt
+echo	$r2$r6$r1$r4$r5$r3 >> output.txt
+echo	$r2$r1$r6$r4$r5$r3 >> output.txt
+echo	$r2$r1$r4$r6$r5$r3 >> output.txt
+echo	$r2$r1$r4$r5$r6$r3 >> output.txt
+echo	$r2$r1$r4$r5$r3$r6 >> output.txt
+echo	$r2$r1$r5$r4$r3$r6 >> output.txt
+echo	$r2$r1$r5$r4$r6$r3 >> output.txt
+echo	$r2$r1$r5$r6$r4$r3 >> output.txt
+echo	$r2$r1$r6$r5$r4$r3 >> output.txt
+echo	$r2$r4$r6$r3$r5$r1 >> output.txt
+echo	$r2$r4$r3$r6$r5$r1 >> output.txt
+echo	$r2$r4$r3$r5$r6$r1 >> output.txt
+echo	$r2$r4$r3$r5$r1$r6 >> output.txt
+echo	$r2$r4$r5$r3$r1$r6 >> output.txt
+echo	$r2$r4$r5$r3$r6$r1 >> output.txt
+echo	$r2$r4$r5$r6$r3$r1 >> output.txt
+echo	$r2$r4$r6$r5$r3$r1 >> output.txt
+echo	$r2$r6$r4$r5$r3$r1 >> output.txt
+echo	$r6$r2$r4$r5$r3$r1 >> output.txt
+echo	$r6$r2$r5$r4$r3$r1 >> output.txt
+echo	$r2$r6$r5$r4$r3$r1 >> output.txt
+echo	$r2$r5$r6$r4$r3$r1 >> output.txt
+echo	$r2$r5$r4$r6$r3$r1 >> output.txt
+echo	$r2$r5$r4$r3$r6$r1 >> output.txt
+echo	$r2$r5$r4$r3$r1$r6 >> output.txt
+echo	$r5$r2$r4$r3$r1$r6 >> output.txt
+echo	$r5$r2$r4$r3$r6$r1 >> output.txt
+echo	$r5$r2$r4$r6$r3$r1 >> output.txt
+echo	$r5$r2$r6$r4$r3$r1 >> output.txt
+echo	$r5$r6$r2$r4$r3$r1 >> output.txt
+echo	$r6$r5$r2$r4$r3$r1 >> output.txt
+echo	$r6$r5$r4$r2$r3$r1 >> output.txt
+echo	$r5$r6$r4$r2$r3$r1 >> output.txt
+echo	$r5$r4$r6$r2$r3$r1 >> output.txt
+echo	$r5$r4$r2$r6$r3$r1 >> output.txt
+echo	$r5$r4$r2$r3$r6$r1 >> output.txt
+echo	$r5$r4$r2$r3$r1$r6 >> output.txt
+echo	$r4$r5$r2$r3$r1$r6 >> output.txt
+echo	$r4$r5$r2$r3$r6$r1 >> output.txt
+echo	$r4$r5$r2$r6$r3$r1 >> output.txt
+echo	$r4$r5$r6$r2$r3$r1 >> output.txt
+echo	$r4$r6$r5$r2$r3$r1 >> output.txt
+echo	$r6$r4$r5$r2$r3$r1 >> output.txt
+echo	$r6$r4$r2$r5$r3$r1 >> output.txt
+echo	$r4$r6$r2$r5$r3$r1 >> output.txt
+echo	$r4$r2$r6$r5$r3$r1 >> output.txt
+echo	$r4$r2$r5$r6$r3$r1 >> output.txt
+echo	$r4$r2$r5$r3$r6$r1 >> output.txt
+echo	$r4$r2$r5$r3$r1$r6 >> output.txt
+echo	$r4$r2$r3$r5$r1$r6 >> output.txt
+echo	$r4$r2$r3$r5$r6$r1 >> output.txt
+echo	$r4$r2$r3$r6$r5$r1 >> output.txt
+echo	$r4$r2$r6$r3$r5$r1 >> output.txt
+echo	$r4$r6$r2$r3$r5$r1 >> output.txt
+echo	$r6$r4$r2$r3$r5$r1 >> output.txt
+echo	$r6$r4$r2$r3$r1$r5 >> output.txt
+echo	$r4$r6$r2$r3$r1$r5 >> output.txt
+echo	$r4$r2$r6$r3$r1$r5 >> output.txt
+echo	$r4$r2$r3$r6$r1$r5 >> output.txt
+echo	$r4$r2$r3$r1$r6$r5 >> output.txt
+echo	$r4$r2$r3$r1$r5$r6 >> output.txt
+echo	$r4$r2$r1$r3$r5$r6 >> output.txt
+echo	$r4$r2$r1$r3$r6$r5 >> output.txt
+echo	$r4$r2$r1$r6$r3$r5 >> output.txt
+echo	$r4$r2$r6$r1$r3$r5 >> output.txt
+echo	$r4$r6$r2$r1$r3$r5 >> output.txt
+echo	$r6$r4$r2$r1$r3$r5 >> output.txt
+echo	$r6$r4$r2$r1$r5$r3 >> output.txt
+echo	$r4$r6$r2$r1$r5$r3 >> output.txt
+echo	$r4$r2$r6$r1$r5$r3 >> output.txt
+echo	$r4$r2$r1$r6$r5$r3 >> output.txt
+echo	$r4$r2$r1$r5$r6$r3 >> output.txt
+echo	$r4$r2$r1$r5$r3$r6 >> output.txt
+echo	$r4$r3$r6$r2$r5$r1 >> output.txt
+echo	$r4$r3$r2$r6$r5$r1 >> output.txt
+echo	$r4$r3$r2$r5$r6$r1 >> output.txt
+echo	$r4$r3$r2$r5$r1$r6 >> output.txt
+echo	$r4$r3$r5$r2$r1$r6 >> output.txt
+echo	$r4$r3$r5$r2$r6$r1 >> output.txt
+echo	$r4$r3$r5$r6$r2$r1 >> output.txt
+echo	$r4$r3$r6$r5$r2$r1 >> output.txt
+echo	$r4$r6$r3$r5$r2$r1 >> output.txt
+echo	$r6$r4$r3$r5$r2$r1 >> output.txt
+echo	$r6$r4$r5$r3$r2$r1 >> output.txt
+echo	$r4$r6$r5$r3$r2$r1 >> output.txt
+echo	$r4$r5$r6$r3$r2$r1 >> output.txt
+echo	$r4$r5$r3$r6$r2$r1 >> output.txt
+echo	$r4$r5$r3$r2$r6$r1 >> output.txt
+echo	$r4$r5$r3$r2$r1$r6 >> output.txt
+echo	$r5$r4$r3$r2$r1$r6 >> output.txt
+echo	$r5$r4$r3$r2$r6$r1 >> output.txt
+echo	$r5$r4$r3$r6$r2$r1 >> output.txt
+echo	$r5$r4$r6$r3$r2$r1 >> output.txt
+echo	$r5$r6$r4$r3$r2$r1 >> output.txt
+echo	$r6$r5$r4$r3$r2$r1 >> output.txt
+echo	$r6$r5$r3$r4$r2$r1 >> output.txt
+echo	$r5$r6$r3$r4$r2$r1 >> output.txt
+echo	$r5$r3$r6$r4$r2$r1 >> output.txt
+echo	$r5$r3$r4$r6$r2$r1 >> output.txt
+echo	$r5$r3$r4$r2$r6$r1 >> output.txt
+echo	$r5$r3$r4$r2$r1$r6 >> output.txt
+echo	$r3$r5$r4$r2$r1$r6 >> output.txt
+echo	$r3$r5$r4$r2$r6$r1 >> output.txt
+echo	$r3$r5$r4$r6$r2$r1 >> output.txt
+echo	$r3$r5$r6$r4$r2$r1 >> output.txt
+echo	$r3$r6$r5$r4$r2$r1 >> output.txt
+echo	$r6$r3$r5$r4$r2$r1 >> output.txt
+echo	$r6$r3$r4$r5$r2$r1 >> output.txt 
+echo	$r3$r4$r5$r6$r2$r1 >> output.txt
+echo	$r3$r4$r5$r2$r6$r1 >> output.txt
+echo	$r3$r4$r5$r2$r1$r6 >> output.txt
+echo	$r3$r4$r2$r5$r1$r6 >> output.txt
+echo	$r3$r4$r2$r5$r6$r1 >> output.txt
+echo	$r3$r4$r2$r6$r5$r1 >> output.txt
+echo	$r3$r4$r6$r2$r5$r1 >> output.txt
+echo	$r3$r6$r4$r2$r5$r1 >> output.txt
+echo	$r6$r3$r4$r2$r5$r1 >> output.txt
+echo	$r6$r3$r4$r2$r1$r5 >> output.txt
+echo	$r3$r6$r4$r2$r1$r5 >> output.txt
+echo	$r3$r4$r6$r2$r1$r5 >> output.txt
+echo	$r3$r4$r2$r6$r1$r5 >> output.txt
+echo	$r3$r4$r2$r1$r6$r5 >> output.txt
+echo	$r3$r4$r2$r1$r5$r6 >> output.txt
+echo	$r3$r2$r4$r1$r5$r6 >> output.txt
+echo	$r3$r2$r4$r1$r6$r5 >> output.txt
+echo	$r3$r2$r4$r6$r1$r5 >> output.txt
+echo	$r3$r2$r6$r4$r1$r5 >> output.txt
+echo	$r3$r6$r2$r4$r1$r5 >> output.txt
+echo	$r6$r3$r2$r4$r1$r5 >> output.txt
+echo	$r6$r3$r2$r4$r5$r1 >> output.txt
+echo	$r3$r6$r2$r4$r5$r1 >> output.txt
+echo	$r3$r2$r6$r4$r5$r1 >> output.txt
+echo	$r3$r2$r4$r6$r5$r1 >> output.txt
+echo	$r3$r2$r4$r5$r6$r1 >> output.txt
+echo	$r3$r2$r4$r5$r1$r6 >> output.txt
+echo	$r3$r2$r5$r4$r1$r6 >> output.txt
+echo	$r3$r2$r5$r4$r6$r1 >> output.txt
+echo	$r3$r2$r5$r4$r1$r6 >> output.txt
+echo	$r3$r2$r5$r4$r6$r1 >> output.txt
+echo	$r3$r2$r5$r6$r4$r1 >> output.txt
+echo	$r3$r2$r6$r5$r4$r1 >> output.txt
+echo	$r3$r2$r5$r6$r4$r1 >> output.txt
+echo	$r3$r2$r6$r5$r4$r1 >> output.txt
+echo	$r1$r6$r3$r4$r2$r5 >> output.txt
+echo	$r6$r1$r3$r4$r2$r5 >> output.txt
+echo	$r6$r1$r3$r4$r5$r2 >> output.txt
+echo	$r1$r6$r3$r4$r5$r2 >> output.txt
+echo	$r1$r3$r6$r4$r5$r2 >> output.txt
+echo	$r1$r3$r4$r6$r5$r2 >> output.txt
+echo	$r1$r3$r4$r5$r6$r2 >> output.txt
+echo	$r1$r3$r4$r5$r2$r6 >> output.txt
+echo	$r1$r3$r5$r4$r2$r6 >> output.txt
+echo	$r1$r3$r5$r4$r6$r2 >> output.txt
+echo	$r1$r3$r5$r6$r4$r2 >> output.txt
+echo	$r1$r3$r6$r5$r4$r2 >> output.txt
+echo	$r1$r6$r3$r5$r4$r2 >> output.txt
+echo	$r6$r1$r3$r5$r4$r2 >> output.txt
+echo	$r6$r1$r5$r3$r4$r2 >> output.txt
+echo	$r1$r6$r5$r3$r4$r2 >> output.txt
+echo	$r1$r5$r6$r3$r4$r2 >> output.txt
+echo	$r1$r5$r3$r6$r4$r2 >> output.txt
+echo	$r1$r5$r3$r4$r6$r2 >> output.txt
+echo	$r1$r5$r3$r4$r2$r6 >> output.txt
+echo	$r5$r1$r3$r4$r2$r6 >> output.txt
+echo	$r5$r1$r3$r4$r6$r2 >> output.txt
+echo	$r5$r1$r3$r6$r4$r2 >> output.txt
+echo	$r5$r1$r6$r3$r4$r2 >> output.txt
+echo	$r5$r6$r1$r3$r4$r2 >> output.txt
+echo	$r6$r5$r1$r3$r4$r2 >> output.txt
+echo	$r6$r5$r1$r3$r2$r4 >> output.txt
+echo	$r5$r6$r1$r3$r2$r4 >> output.txt
+echo	$r5$r1$r6$r3$r2$r4 >> output.txt
+echo	$r5$r1$r3$r6$r2$r4 >> output.txt
+echo	$r5$r1$r3$r2$r6$r4 >> output.txt
+echo	$r5$r1$r3$r2$r4$r6 >> output.txt
+echo	$r1$r5$r3$r2$r4$r6 >> output.txt
+echo	$r1$r5$r3$r2$r6$r4 >> output.txt
+echo	$r1$r5$r3$r6$r2$r4 >> output.txt
+echo	$r1$r5$r6$r3$r2$r4 >> output.txt
+echo	$r1$r6$r5$r3$r2$r4 >> output.txt
+echo	$r6$r1$r5$r3$r2$r4 >> output.txt
+echo	$r6$r1$r3$r5$r2$r4 >> output.txt
+echo	$r1$r6$r3$r5$r2$r4 >> output.txt
+echo	$r1$r3$r6$r5$r2$r4 >> output.txt
+echo	$r1$r3$r5$r6$r2$r4 >> output.txt
+echo	$r1$r3$r5$r2$r6$r4 >> output.txt
+echo	$r1$r3$r5$r2$r4$r6 >> output.txt
+echo	$r1$r3$r2$r5$r4$r6 >> output.txt
+echo	$r1$r3$r2$r5$r6$r4 >> output.txt
+echo	$r1$r3$r2$r6$r5$r4 >> output.txt
+echo	$r1$r3$r6$r2$r5$r4 >> output.txt
+echo	$r1$r6$r3$r2$r5$r4 >> output.txt
+echo	$r6$r1$r3$r2$r5$r4 >> output.txt
+echo	$r6$r1$r3$r2$r4$r5 >> output.txt
+echo	$r1$r6$r3$r2$r4$r5 >> output.txt
+echo	$r1$r3$r6$r2$r4$r5 >> output.txt
+echo	$r1$r3$r2$r6$r4$r5 >> output.txt
+echo	$r1$r3$r2$r4$r6$r5 >> output.txt
+echo	$r1$r3$r2$r4$r5$r6 >> output.txt
+echo	$r3$r1$r2$r4$r5$r6 >> output.txt
+echo	$r3$r1$r2$r4$r6$r5 >> output.txt
+echo	$r3$r1$r2$r6$r4$r5 >> output.txt
+echo	$r3$r1$r6$r2$r4$r5 >> output.txt
+echo	$r3$r6$r1$r2$r4$r5 >> output.txt
+echo	$r6$r3$r1$r2$r4$r5 >> output.txt
+echo	$r6$r3$r1$r2$r5$r4 >> output.txt
+echo	$r3$r6$r1$r2$r5$r4 >> output.txt
+echo	$r2$r4$r6$r1$r3$r5 >> output.txt
+echo	$r2$r4$r1$r6$r3$r5 >> output.txt
+echo	$r2$r4$r1$r3$r6$r5 >> output.txt
+echo	$r2$r4$r1$r3$r5$r6 >> output.txt
+echo	$r2$r1$r4$r3$r5$r6 >> output.txt
+echo	$r2$r1$r4$r3$r6$r5 >> output.txt
+echo	$r2$r1$r4$r6$r3$r5 >> output.txt
+echo	$r2$r1$r6$r4$r3$r5 >> output.txt
+echo	$r2$r6$r1$r4$r3$r5 >> output.txt
+echo	$r6$r2$r1$r4$r3$r5 >> output.txt
+echo	$r6$r2$r1$r4$r5$r3 >> output.txt
+echo	$r2$r6$r1$r4$r5$r3 >> output.txt
+echo	$r2$r1$r6$r4$r5$r3 >> output.txt
+echo	$r2$r1$r4$r6$r5$r3 >> output.txt
+echo	$r2$r1$r4$r5$r6$r3 >> output.txt
+echo	$r2$r1$r4$r5$r3$r6 >> output.txt
+echo	$r2$r1$r5$r4$r3$r6 >> output.txt
+echo	$r2$r1$r5$r4$r6$r3 >> output.txt
+echo	$r2$r1$r5$r6$r4$r3 >> output.txt
+echo	$r2$r1$r6$r5$r4$r3 >> output.txt
+echo	$r2$r6$r1$r5$r4$r3 >> output.txt
+echo	$r6$r2$r1$r5$r4$r3 >> output.txt
+echo	$r6$r2$r5$r1$r4$r3 >> output.txt
+echo	$r2$r6$r5$r1$r4$r3 >> output.txt
+echo	$r2$r5$r6$r1$r4$r3 >> output.txt
+echo	$r2$r5$r1$r6$r4$r3 >> output.txt
+echo	$r2$r5$r1$r4$r6$r3 >> output.txt
+echo	$r2$r5$r1$r4$r3$r6 >> output.txt
+echo	$r5$r2$r1$r4$r3$r6 >> output.txt
+echo	$r5$r2$r1$r4$r6$r3 >> output.txt
+echo	$r5$r2$r1$r6$r4$r3 >> output.txt
+echo	$r5$r2$r6$r1$r4$r3 >> output.txt
+echo	$r5$r6$r2$r1$r4$r3 >> output.txt
+echo	$r6$r5$r2$r1$r4$r3 >> output.txt
+echo	$r6$r5$r2$r1$r3$r4 >> output.txt
+echo	$r5$r6$r2$r1$r3$r4 >> output.txt
+echo	$r5$r2$r6$r1$r3$r4 >> output.txt
+echo	$r5$r2$r1$r6$r3$r4 >> output.txt
+echo	$r5$r2$r1$r3$r6$r4 >> output.txt
+echo	$r5$r2$r1$r3$r4$r6 >> output.txt
+echo	$r2$r5$r1$r3$r4$r6 >> output.txt
+echo	$r2$r5$r1$r3$r6$r4 >> output.txt
+echo	$r2$r5$r1$r6$r3$r4 >> output.txt
+echo	$r2$r5$r6$r1$r3$r4 >> output.txt
+echo	$r2$r6$r5$r1$r3$r4 >> output.txt
+echo	$r6$r2$r5$r1$r3$r4 >> output.txt
+echo	$r6$r2$r1$r5$r3$r4 >> output.txt
+echo	$r2$r6$r1$r5$r3$r4 >> output.txt
+echo	$r2$r1$r6$r5$r3$r4 >> output.txt
+echo	$r2$r1$r5$r6$r3$r4 >> output.txt
+echo	$r2$r1$r5$r3$r6$r4 >> output.txt
+echo	$r2$r1$r5$r3$r4$r6 >> output.txt
+echo	$r2$r1$r3$r5$r4$r6 >> output.txt
+echo	$r2$r1$r3$r5$r6$r4 >> output.txt
+echo	$r2$r1$r3$r6$r5$r4 >> output.txt
+echo	$r2$r1$r6$r3$r5$r4 >> output.txt
+echo	$r2$r6$r1$r3$r5$r4 >> output.txt
+echo	$r6$r2$r1$r3$r5$r4 >> output.txt
+echo	$r6$r2$r1$r3$r4$r5 >> output.txt
+echo	$r2$r6$r1$r3$r4$r5 >> output.txt
+echo	$r2$r1$r6$r3$r4$r5 >> output.txt
+echo	$r2$r1$r3$r6$r4$r5 >> output.txt
+echo	$r2$r1$r3$r4$r6$r5 >> output.txt
+echo	$r2$r1$r3$r4$r5$r6 >> output.txt
+echo	$r4$r1$r6$r3$r5$r2 >> output.txt
+echo	$r4$r1$r3$r6$r5$r2 >> output.txt
+echo	$r4$r1$r3$r5$r6$r2 >> output.txt
+echo	$r4$r1$r3$r5$r2$r6 >> output.txt
+echo	$r4$r1$r5$r3$r2$r6 >> output.txt
+echo	$r4$r1$r5$r3$r6$r2 >> output.txt
+echo	$r4$r1$r5$r6$r3$r2 >> output.txt
+echo	$r4$r1$r6$r5$r3$r2 >> output.txt
+echo	$r4$r6$r1$r5$r3$r2 >> output.txt
+echo	$r6$r4$r1$r5$r3$r2 >> output.txt
+echo	$r6$r4$r5$r1$r3$r2 >> output.txt
+echo	$r4$r6$r5$r1$r3$r2 >> output.txt
+echo	$r4$r5$r6$r1$r3$r2 >> output.txt
+echo	$r4$r5$r1$r6$r3$r2 >> output.txt
+echo	$r4$r5$r1$r3$r6$r2 >> output.txt
+echo	$r4$r5$r1$r3$r2$r6 >> output.txt
+echo	$r5$r4$r1$r3$r2$r6 >> output.txt
+echo	$r5$r4$r1$r3$r6$r2 >> output.txt
+echo	$r5$r4$r1$r6$r3$r2 >> output.txt
+echo	$r5$r4$r6$r1$r3$r2 >> output.txt
+echo	$r5$r6$r4$r1$r3$r2 >> output.txt
+echo	$r6$r5$r4$r1$r3$r2 >> output.txt
+echo	$r6$r5$r1$r4$r3$r2 >> output.txt
+echo	$r5$r6$r1$r4$r3$r2 >> output.txt
+echo	$r5$r1$r6$r4$r3$r2 >> output.txt
+echo	$r5$r1$r4$r6$r3$r2 >> output.txt
+echo	$r5$r1$r4$r3$r6$r2 >> output.txt
+echo	$r5$r1$r4$r3$r2$r6 >> output.txt
+echo	$r1$r5$r4$r3$r2$r6 >> output.txt
+echo	$r1$r5$r4$r3$r6$r2 >> output.txt
+echo	$r1$r5$r4$r6$r3$r2 >> output.txt
+echo	$r1$r5$r6$r4$r3$r2 >> output.txt
+echo	$r1$r6$r5$r4$r3$r2 >> output.txt
+echo	$r6$r1$r5$r4$r3$r2 >> output.txt
+echo	$r6$r1$r4$r5$r3$r2 >> output.txt
+echo	$r1$r6$r4$r5$r3$r2 >> output.txt
+echo	$r1$r4$r6$r5$r3$r2 >> output.txt
+echo	$r1$r4$r5$r6$r3$r2 >> output.txt
+echo	$r1$r4$r5$r3$r6$r2 >> output.txt
+echo	$r1$r4$r5$r3$r2$r6 >> output.txt
+echo	$r1$r4$r3$r5$r2$r6 >> output.txt
+echo	$r1$r4$r3$r5$r6$r2 >> output.txt
+echo	$r1$r4$r3$r6$r5$r2 >> output.txt
+echo	$r1$r4$r6$r3$r5$r2 >> output.txt
+echo	$r1$r6$r4$r3$r5$r2 >> output.txt
+echo	$r6$r1$r4$r3$r5$r2 >> output.txt
+echo	$r6$r1$r4$r3$r2$r5 >> output.txt
+echo	$r1$r6$r4$r3$r2$r5 >> output.txt
+echo	$r1$r4$r6$r3$r2$r5 >> output.txt
+echo	$r1$r4$r3$r6$r2$r5 >> output.txt
+echo	$r1$r4$r3$r2$r6$r5 >> output.txt
+echo	$r1$r4$r3$r2$r5$r6 >> output.txt
+echo	$r1$r3$r4$r2$r5$r6 >> output.txt
+echo	$r1$r3$r4$r2$r6$r5 >> output.txt
+echo	$r1$r3$r4$r6$r2$r5 >> output.txt
+echo	$r1$r3$r6$r4$r2$r5 >> output.txt
+echo	$r1$r6$r3$r4$r2$r5 >> output.txt
+echo	$r6$r1$r3$r4$r2$r5 >> output.txt
+echo	$r6$r1$r3$r4$r5$r2 >> output.txt
+echo	$r1$r6$r3$r4$r5$r2 >> output.txt
+echo	$r1$r3$r6$r4$r5$r2 >> output.txt
+echo	$r1$r3$r4$r6$r5$r2 >> output.txt
+echo	$r1$r3$r4$r5$r6$r2 >> output.txt
+echo	$r1$r3$r4$r5$r2$r6 >> output.txt
+echo	$r2$r3$r6$r1$r5$r4 >> output.txt
+echo	$r2$r3$r1$r6$r5$r4 >> output.txt
+echo	$r2$r3$r1$r5$r6$r4 >> output.txt
+echo	$r2$r3$r1$r5$r4$r6 >> output.txt
+echo	$r2$r3$r5$r1$r4$r6 >> output.txt
+echo	$r2$r3$r5$r1$r6$r4 >> output.txt
+echo	$r2$r3$r5$r6$r1$r4 >> output.txt
+echo	$r2$r3$r6$r5$r1$r4 >> output.txt
+echo	$r2$r6$r3$r5$r1$r4 >> output.txt
+echo	$r6$r2$r3$r5$r1$r4 >> output.txt
+echo	$r6$r2$r5$r3$r1$r4 >> output.txt
+echo	$r2$r6$r5$r3$r1$r4 >> output.txt
+echo	$r2$r5$r6$r3$r1$r4 >> output.txt
+echo	$r2$r5$r3$r6$r1$r4 >> output.txt
+echo	$r2$r5$r3$r1$r6$r4 >> output.txt
+echo	$r2$r5$r3$r1$r4$r6 >> output.txt
+echo	$r5$r2$r3$r1$r4$r6 >> output.txt
+echo	$r5$r2$r3$r1$r6$r4 >> output.txt
+echo	$r5$r2$r3$r6$r1$r4 >> output.txt
+echo	$r5$r2$r6$r3$r1$r4 >> output.txt
+echo	$r5$r6$r2$r3$r1$r4 >> output.txt
+echo	$r6$r5$r2$r3$r1$r4 >> output.txt
+echo	$r6$r5$r2$r3$r4$r1 >> output.txt
+echo	$r5$r6$r2$r3$r4$r1 >> output.txt
+echo	$r5$r2$r6$r3$r4$r1 >> output.txt
+echo	$r5$r2$r3$r6$r4$r1 >> output.txt
+echo	$r5$r2$r3$r4$r6$r1 >> output.txt
+echo	$r5$r2$r3$r4$r1$r6 >> output.txt
+echo	$r2$r5$r3$r4$r1$r6 >> output.txt
+echo	$r2$r5$r3$r4$r6$r1 >> output.txt
+echo	$r2$r5$r3$r6$r4$r1 >> output.txt
+echo	$r2$r5$r6$r3$r4$r1 >> output.txt
+echo	$r2$r6$r5$r3$r4$r1 >> output.txt
+echo	$r6$r2$r5$r3$r4$r1 >> output.txt
+echo	$r6$r2$r3$r5$r4$r1 >> output.txt
+echo	$r2$r6$r3$r5$r4$r1 >> output.txt
+echo	$r2$r3$r6$r5$r4$r1 >> output.txt
+echo	$r2$r3$r5$r6$r4$r1 >> output.txt
+echo	$r2$r3$r5$r4$r6$r1 >> output.txt
+echo	$r2$r3$r5$r4$r1$r6 >> output.txt
+echo	$r2$r3$r4$r5$r1$r6 >> output.txt
+echo	$r2$r3$r4$r5$r6$r1 >> output.txt
+echo	$r2$r3$r4$r6$r5$r1 >> output.txt
+echo	$r2$r3$r6$r4$r5$r1 >> output.txt
+echo	$r2$r6$r3$r4$r5$r1 >> output.txt
+echo	$r6$r2$r3$r4$r5$r1 >> output.txt
+echo	$r6$r2$r3$r4$r1$r5 >> output.txt
+echo	$r2$r6$r3$r4$r1$r5 >> output.txt
+echo	$r2$r3$r6$r4$r1$r5 >> output.txt
+echo	$r2$r3$r4$r6$r1$r5 >> output.txt
+echo	$r2$r3$r4$r1$r6$r5 >> output.txt
+echo	$r2$r3$r4$r1$r5$r6 >> output.txt
+echo	$r2$r4$r3$r1$r5$r6 >> output.txt
+echo	$r2$r4$r3$r1$r6$r5 >> output.txt
+echo	$r2$r4$r3$r6$r1$r5 >> output.txt
+echo	$r2$r4$r6$r3$r1$r5 >> output.txt
+echo	$r2$r6$r4$r3$r1$r5 >> output.txt
+echo	$r6$r2$r4$r3$r1$r5 >> output.txt
+echo	$r6$r2$r4$r3$r5$r1 >> output.txt
+echo	$r2$r6$r4$r3$r5$r1 >> output.txt
+echo	$r2$r4$r6$r3$r5$r1 >> output.txt
+echo	$r2$r4$r3$r6$r5$r1 >> output.txt
+echo	$r2$r4$r3$r5$r6$r1 >> output.txt
+echo	$r2$r4$r3$r5$r1$r6 >> output.txt
+echo	$r4$r3$r6$r2$r5$r1 >> output.txt
+echo	$r4$r3$r2$r6$r5$r1 >> output.txt
+echo	$r4$r3$r2$r5$r6$r1 >> output.txt
+echo	$r4$r3$r2$r5$r1$r6 >> output.txt
+echo	$r4$r3$r5$r2$r1$r6 >> output.txt
+echo	$r4$r3$r5$r2$r6$r1 >> output.txt
+echo	$r4$r3$r5$r6$r2$r1 >> output.txt
+echo	$r4$r3$r6$r5$r2$r1 >> output.txt
+echo	$r4$r6$r3$r5$r2$r1 >> output.txt
+echo	$r6$r4$r3$r5$r2$r1 >> output.txt
+echo	$r6$r4$r5$r3$r2$r1 >> output.txt
+echo	$r4$r6$r5$r3$r2$r1 >> output.txt
+echo	$r4$r5$r6$r3$r2$r1 >> output.txt
+echo	$r4$r5$r3$r6$r2$r1 >> output.txt
+echo	$r4$r5$r3$r2$r6$r1 >> output.txt
+echo	$r4$r5$r3$r2$r1$r6 >> output.txt
+echo	$r5$r4$r3$r2$r1$r6 >> output.txt
+echo	$r5$r4$r3$r2$r6$r1 >> output.txt
+echo	$r5$r4$r3$r6$r2$r1 >> output.txt
+echo	$r5$r4$r6$r3$r2$r1 >> output.txt
+echo	$r5$r6$r4$r3$r2$r1 >> output.txt
+echo	$r6$r5$r4$r3$r2$r1 >> output.txt
+echo	$r6$r5$r3$r4$r2$r1 >> output.txt
+echo	$r5$r6$r3$r4$r2$r1 >> output.txt
+echo	$r5$r3$r6$r4$r2$r1 >> output.txt
+echo	$r5$r3$r4$r6$r2$r1 >> output.txt
+echo	$r5$r3$r4$r2$r6$r1 >> output.txt
+echo	$r5$r3$r4$r2$r1$r6 >> output.txt
+echo	$r3$r5$r4$r2$r1$r6 >> output.txt
+echo	$r3$r5$r4$r2$r6$r1 >> output.txt
+echo	$r3$r5$r4$r6$r2$r1 >> output.txt
+echo	$r3$r5$r6$r4$r2$r1 >> output.txt
+echo	$r3$r6$r5$r4$r2$r1 >> output.txt
+echo	$r6$r3$r5$r4$r2$r1 >> output.txt
+echo	$r6$r3$r4$r5$r2$r1 >> output.txt
+echo	$r3$r6$r4$r5$r2$r1 >> output.txt
+echo	$r3$r4$r6$r5$r2$r1 >> output.txt
+echo	$r3$r4$r5$r6$r2$r1 >> output.txt
+echo	$r3$r4$r5$r2$r6$r1 >> output.txt
+echo	$r3$r4$r5$r2$r1$r6 >> output.txt
+echo	$r3$r4$r2$r5$r1$r6 >> output.txt
+echo	$r3$r4$r2$r5$r6$r1 >> output.txt
+echo	$r3$r4$r2$r6$r5$r1 >> output.txt
+echo	$r3$r4$r6$r2$r5$r1 >> output.txt
+echo	$r3$r6$r4$r2$r5$r1 >> output.txt
+echo	$r6$r3$r4$r2$r5$r1 >> output.txt
+echo	$r6$r3$r4$r2$r1$r5 >> output.txt
+echo	$r3$r6$r4$r2$r1$r5 >> output.txt
+echo	$r3$r4$r6$r2$r1$r5 >> output.txt
+echo	$r3$r4$r2$r6$r1$r5 >> output.txt
+echo	$r3$r4$r2$r1$r6$r5 >> output.txt
+echo	$r3$r4$r2$r1$r5$r6 >> output.txt
+echo	$r3$r2$r4$r1$r5$r6 >> output.txt
+echo	$r3$r2$r4$r1$r6$r5 >> output.txt
+echo	$r3$r2$r4$r6$r1$r5 >> output.txt
+echo	$r3$r2$r6$r4$r1$r5 >> output.txt
+echo	$r3$r6$r2$r4$r1$r5 >> output.txt
+echo	$r6$r3$r2$r4$r1$r5 >> output.txt
+echo	$r6$r3$r2$r4$r5$r1 >> output.txt
+echo	$r3$r6$r2$r4$r5$r1 >> output.txt
+echo	$r3$r2$r6$r4$r5$r1 >> output.txt
+echo	$r3$r2$r4$r6$r5$r1 >> output.txt 
+echo	$r3$r2$r4$r5$r6$r1 >> output.txt
+echo	$r3$r2$r4$r5$r1$r6 >> output.txt
+echo	$r3$r2$r5$r4$r1$r6 >> output.txt
+echo	$r3$r2$r5$r4$r6$r1 >> output.txt
+echo	$r3$r2$r5$r6$r4$r1 >> output.txt
+echo	$r3$r2$r6$r5$r4$r1 >> output.txt
